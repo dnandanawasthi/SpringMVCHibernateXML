@@ -5,7 +5,7 @@ tomcat:
   environment:
     VIRTUAL_HOST: tomcat
   volumes:
-    - "./target/spring-mvc-hibernate-xml.war:/usr/local/tomcat/webapps/app.war"
+    - "./target/SpringMVCHibernateXML.war:/usr/local/tomcat/webapps/app.war"
   links:
     - db
 
